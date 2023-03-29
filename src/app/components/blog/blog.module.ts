@@ -8,6 +8,7 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { BlogComponent } from './blog.component';
 import { LogoComponent } from './layout/header/logo/logo.component';
 import { NavComponent } from './layout/header/nav/nav.component';
+import { BlogRoutingModule } from './blog-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { NavComponent } from './layout/header/nav/nav.component';
     LogoComponent,
     NavComponent,
   ],
-  imports: [CommonModule],
-  exports: [BlogComponent],
+  imports: [CommonModule, BlogRoutingModule],
+  exports: [BlogComponent, BlogRoutingModule],
 })
 export class BlogModule {}
