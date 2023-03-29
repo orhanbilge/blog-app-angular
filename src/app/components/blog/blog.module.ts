@@ -6,6 +6,8 @@ import { HeaderComponent } from './layout/header/header.component';
 import { ContentComponent } from './layout/content/content.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { BlogComponent } from './blog.component';
+import { LogoComponent } from './layout/header/logo/logo.component';
+import { NavComponent } from './layout/header/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { BlogComponent } from './blog.component';
     FooterComponent,
     ListComponent,
     BlogComponent,
+    LogoComponent,
+    NavComponent,
   ],
   imports: [CommonModule],
   exports: [BlogComponent],

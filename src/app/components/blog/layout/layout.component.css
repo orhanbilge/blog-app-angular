@@ -1,0 +1,9 @@
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  margin: 0 auto;
+  grid-gap: 20px;
+}
