@@ -1,7 +1,8 @@
 <nav [className]="'navbar'">
   <ul>
-    <li><a href="">Menü</a></li>
-    <li><a href="">Menü</a></li>
-    <li><a href="">Menü</a></li>
+    <li><a [routerLink]="['']">Home</a></li>
+    <li><a [routerLink]="['category', 1]">Cat 1</a></li>
+    <li><a [routerLink]="['category', 2]">Cat 2</a></li>
+    <li><a [routerLink]="['category', 3]">Cat 3</a></li>
   </ul>
 </nav>
