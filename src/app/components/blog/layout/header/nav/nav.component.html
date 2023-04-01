@@ -1,8 +1,27 @@
 <nav [className]="'navbar'">
   <ul>
-    <li><a [routerLink]="['']">Home</a></li>
-    <li><a [routerLink]="['category', 1]">Cat 1</a></li>
-    <li><a [routerLink]="['category', 2]">Cat 2</a></li>
-    <li><a [routerLink]="['category', 3]">Cat 3</a></li>
+    <li>
+      <a
+        [routerLink]="['']"
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+    </li>
+    <li>
+      <a [routerLink]="['category', 1]" [routerLinkActive]="['active']"
+        >Cat 1</a
+      >
+    </li>
+    <li>
+      <a [routerLink]="['category', 2]" [routerLinkActive]="['active']"
+        >Cat 2</a
+      >
+    </li>
+    <li>
+      <a [routerLink]="['category', 3]" [routerLinkActive]="['active']"
+        >Cat 3</a
+      >
+    </li>
   </ul>
 </nav>

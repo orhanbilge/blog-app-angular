@@ -1,6 +1,6 @@
 .footer-wrapper {
   grid-area: footer;
-  position: fixed;
+  position: static;
   bottom: 0;
   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
   width: 100%;

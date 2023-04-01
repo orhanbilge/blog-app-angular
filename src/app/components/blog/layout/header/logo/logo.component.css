@@ -4,3 +4,7 @@
   height: 35px;
   width: 250px;
 }
+.logo span {
+  font-size: 24px;
+  font-family: "Yellowtail";
+}

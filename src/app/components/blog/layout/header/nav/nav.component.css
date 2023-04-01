@@ -2,6 +2,9 @@
   height: 35px;
   line-height: 35px;
 }
+.active {
+  font-weight: bold;
+}
 ul {
   display: flex;
 }
@@ -11,4 +14,9 @@ li {
 }
 li a {
   align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+li a:hover {
+  font-weight: bold;
 }

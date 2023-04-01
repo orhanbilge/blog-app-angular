@@ -1,9 +1,6 @@
 <h2>You are in: {{ id || "Home" }}</h2>
-
 <section [className]="'list-wrapper'">
-  <blog-list-item [postId]="1"></blog-list-item>
-  <blog-list-item [postId]="2"></blog-list-item>
-  <blog-list-item [postId]="3"></blog-list-item>
-  <blog-list-item [postId]="4"></blog-list-item>
-  <blog-list-item [postId]="5"></blog-list-item>
+  <div *ngFor="let post of posts" [className]="'list-item'">
+    <blog-list-item [postId]="post.id"></blog-list-item>
+  </div>
 </section>

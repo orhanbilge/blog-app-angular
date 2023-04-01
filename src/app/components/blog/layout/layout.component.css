@@ -6,4 +6,5 @@
     "footer";
   margin: 0 auto;
   grid-gap: 20px;
+  height: 100vh;
 }
